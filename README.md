@@ -97,7 +97,7 @@ Le choix du noyau dépend de la nature de vos données et de la forme de la rela
 
 En fin de compte, il n'y a pas de noyau universellement optimal, car il dépend de la spécificité de vos données. La compréhension de votre ensemble de données et de la nature du problème est essentielle pour faire un choix éclairé.
 ### Augmentation des données
-L'augmentation des données (data augmentation) est une technique couramment utilisée pour améliorer les performances des modèles d'apprentissage automatique, y compris les SVM. Cette technique consiste à créer de nouveaux exemples d'entraînement en appliquant des transformations aux données d'origine. Dans le contexte d'un modèle SVM, cela peut aider à augmenter la diversité des exemples d'entraînement, ce qui peut améliorer la généralisation du modèle. Voici comment vous pouvez mettre en œuvre l'augmentation des données en Python à l'aide de la bibliothèque Scikit-Learn et la bibliothèque d'augmentation de données `Augmentor` :
+L'augmentation des données (data augmentation) est une technique couramment utilisée pour améliorer les performances des modèles d'apprentissage automatique, y compris les SVM. Cette technique consiste à créer de nouveaux exemples d'entraînement en appliquant des transformations aux données d'origine. Dans le contexte d'un modèle SVM, cela peut aider à augmenter la diversité des exemples d'entraînement, ce qui peut améliorer la généralisation du modèle.
 
 1. Commencez par installer la bibliothèque `Augmentor` si vous ne l'avez pas déjà fait :
 
@@ -133,7 +133,7 @@ p.sample(num_samples)
 
 4. Ensuite, vous pouvez utiliser cet ensemble de données augmenté pour entraîner votre modèle SVM, comme dans les exemples précédents.
 
-L'augmentation des données peut être particulièrement utile lorsque vous avez un ensemble de données limité ou que les classes sont déséquilibrées. Cela permet d'augmenter la diversité des exemples et peut améliorer la capacité de généralisation du modèle. Assurez-vous de personnaliser les opérations d'augmentation en fonction de votre problème spécifique.
+
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé les bibliothèques Python nécessaires en utilisant la commande suivante :
